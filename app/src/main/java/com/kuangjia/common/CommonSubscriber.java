@@ -2,7 +2,8 @@ package com.kuangjia.common;
 
 import android.text.TextUtils;
 
-import com.shop.interfaces.IBaseView;
+
+import com.kuangjia.interfaces.IBaseView;
 
 import io.reactivex.subscribers.ResourceSubscriber;
 

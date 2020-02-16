@@ -1,19 +1,15 @@
 package com.kuangjia.base;
 
-import com.shop.interfaces.IBasePersenter;
-import com.shop.interfaces.IBaseView;
+
+import com.kuangjia.interfaces.IBasePersenter;
+import com.kuangjia.interfaces.IBaseView;
 
 import java.lang.ref.WeakReference;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 
-/**
- * p层的实现基类 实现特征：
- * 1.关联和解绑V层
- * 2.对网络请求对象进行背压式处理CompositeDisposable
- *
- */
+
 public abstract class BasePersenter<V extends IBaseView> implements IBasePersenter<V> {
 
     protected V mView;

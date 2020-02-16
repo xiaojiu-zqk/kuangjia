@@ -17,15 +17,7 @@ import com.shop.interfaces.IBaseView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * 基础Fragment
- *  * MVP框架中BaseFragment类应该具备如下特征：
- *  * 1.应该包含用来处理网络数据逻辑的P层
- *  * 2.应该具备界面初始化的方法initView
- *  * 3.应该具备数据初始化的方法initData
- *  * 4.获取当前应该显示的xml布局页面
- *  * 5.生命周期结束的时候解绑p层的关联
- */
+
 public abstract class BaseFragment<P extends IBasePersenter> extends Fragment implements IBaseView {
 
     protected P persenter;
