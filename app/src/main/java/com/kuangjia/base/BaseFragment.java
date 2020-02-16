@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.shop.interfaces.IBasePersenter;
-import com.shop.interfaces.IBaseView;
+import com.kuangjia.interfaces.IBasePersenter;
+import com.kuangjia.interfaces.IBaseView;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
